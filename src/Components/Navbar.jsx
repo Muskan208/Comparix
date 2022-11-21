@@ -6,13 +6,15 @@ const Navbar = () => {
         <div className="navbar">
             <div className="nav">
                 <div className="left">
-                    <Link to="/" >Home</Link>
-                    <Link to="scrape" >Analytics</Link>
-                    <Link to="about" >About Us</Link>
+                    <Link className="hover-underline-animation" to="/" >Home</Link>
+                    <Link className="hover-underline-animation" to="scrape" >Analytics</Link>
+                    <Link className="hover-underline-animation" to="about" >About Us</Link>
+                    <Link className="hover-underline-animation" to="Feedback" >FeedBack</Link>
                 </div>
                 <div className="right">
                     <button>
-                        xz
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                        Login
                     </button>
                 </div>
             </div>
