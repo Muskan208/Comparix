@@ -205,11 +205,11 @@ html {
 }
 
 .analytics .heading {
-  height: 24vh;
+  min-height: 24vh;
   /* background-color: black; */
 
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   padding: 4rem;
 
@@ -266,7 +266,14 @@ html {
   height: auto;
   padding: 2rem 8rem;
 }
-
+.categories p{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.categories p span{
+  color: #fff;
+  font-size: 1.2rem;
+}
 .categories button {
   border-radius: 2rem;
   border: 4px solid #545493;
@@ -283,12 +290,56 @@ html {
   background-color: #545493;
   color: #fff;
 }
-.analytics .mainsection .Graph{
-  width: 100vw;
+.analytics .heading .Graph{
+  /* width: 100vw; */
   height: 40vh;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.analytics .mainsection .Graph p{
+  color: #fff;
+  font-size: 1.2rem;
+}
+.analytics  .productdetail{
+  color: #fff;
+  padding: 1rem 6.5rem;
+}
+.analytics  .productdetail h2{
+  font-size: 4rem;
+  font-weight: 400;
+}
+.analytics  .productdetail h4{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.analytics  .productdetail .price h2{
+  font-size: 2rem;
+  margin: 1rem;
+}
+.analytics  .productdetail .Analytics{
+  
+  flex-direction: column;
+height: 48vh;
+margin: 1rem;
+/* padding: 1rem; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about{
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:   8rem ;
+} 
+.about p{
+  /* width: 80%; */
 }
